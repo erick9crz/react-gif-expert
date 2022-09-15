@@ -1,0 +1,46 @@
+.c-card {
+	align-content: center;
+	align-items: center;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	display: flex;
+	flex-direction: column;
+	height: 0%;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 350px;
+	overflow: hidden;
+	width: 100%;
+
+	&__grid{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 30px 10px;
+		justify-content: space-between;
+	}
+
+	&__img {
+		font-size: 0;
+		height: auto;
+		overflow: hidden;
+		width: 100%;
+
+		img {
+			height: 100%;
+			object-fit: cover;
+			width: 100%;
+		}
+	}
+
+	&__title {
+		padding: 1rem;
+		text-align: center;
+		width: 100%;
+
+		p {
+			margin: 0;
+		}
+	}
+}
